@@ -1,7 +1,7 @@
 # Harpy
 A programming language that compiles to Batch. 
 
-W. I. P. but mostly stable.
+W. I. P. but almost completely stable.
 
 Currently has almost no standard library. Compiler errors are vague and don't tell you much. Runtime errors will just fail silently. All of these things are being worked on at the moment--but if your code is right, it works like a charm.
 
