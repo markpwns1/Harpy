@@ -1,0 +1,10 @@
+C:\Users\Mark\Documents\Visual Studio 2017\Projects\Dormez\DormezCompiler\bin\Debug\DormezCompiler.exe.config
+C:\Users\Mark\Documents\Visual Studio 2017\Projects\Dormez\DormezCompiler\bin\Debug\DormezCompiler.exe
+C:\Users\Mark\Documents\Visual Studio 2017\Projects\Dormez\DormezCompiler\bin\Debug\DormezCompiler.pdb
+C:\Users\Mark\Documents\Visual Studio 2017\Projects\Dormez\DormezCompiler\bin\Debug\Mono.Cecil.dll
+C:\Users\Mark\Documents\Visual Studio 2017\Projects\Dormez\DormezCompiler\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Mark\Documents\Visual Studio 2017\Projects\Dormez\DormezCompiler\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Mark\Documents\Visual Studio 2017\Projects\Dormez\DormezCompiler\bin\Debug\Mono.Cecil.Rocks.dll
+C:\Users\Mark\Documents\Visual Studio 2017\Projects\Dormez\DormezCompiler\obj\Debug\DormezCompiler.exe
+C:\Users\Mark\Documents\Visual Studio 2017\Projects\Dormez\DormezCompiler\obj\Debug\DormezCompiler.pdb
+C:\Users\Mark\documents\visual studio 2017\Projects\Dormez\DormezCompiler\obj\Debug\DormezCompiler.csprojResolveAssemblyReference.cache

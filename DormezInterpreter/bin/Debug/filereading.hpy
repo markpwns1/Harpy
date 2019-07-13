@@ -1,0 +1,12 @@
+include {
+    IO,
+    ARRAYS
+};
+
+var filename: string = "test.txt";
+
+function main() {
+    var lines = file_read_lines(filename);
+    array_print(lines);
+    pause();
+}

@@ -1,0 +1,7 @@
+function inline print(text: string) {
+    raw("echo:" .. text);
+}
+
+function inline print() {
+    raw("echo:");
+}

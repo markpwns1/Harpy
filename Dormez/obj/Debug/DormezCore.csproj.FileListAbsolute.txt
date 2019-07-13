@@ -1,0 +1,6 @@
+C:\Users\Mark\Documents\Visual Studio 2017\Projects\Dormez\Dormez\bin\Debug\Dormez.dll.config
+C:\Users\Mark\Documents\Visual Studio 2017\Projects\Dormez\Dormez\bin\Debug\Dormez.dll
+C:\Users\Mark\Documents\Visual Studio 2017\Projects\Dormez\Dormez\bin\Debug\Dormez.pdb
+C:\Users\Mark\Documents\Visual Studio 2017\Projects\Dormez\Dormez\obj\Debug\Dormez.dll
+C:\Users\Mark\Documents\Visual Studio 2017\Projects\Dormez\Dormez\obj\Debug\Dormez.pdb
+C:\Users\Mark\documents\visual studio 2017\Projects\Dormez\Dormez\obj\Debug\DormezCore.csprojResolveAssemblyReference.cache

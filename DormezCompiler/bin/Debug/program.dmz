@@ -1,0 +1,15 @@
+/*
+TODO:
+- C# extension methods
+*/
+
+declare map = Map();
+
+map.add(0, "Mark");
+map.add(3, "Edward");
+map.add(5, "Marcelo");
+
+map[3] = "cyka";
+
+console.print(map);
+console.readKey();

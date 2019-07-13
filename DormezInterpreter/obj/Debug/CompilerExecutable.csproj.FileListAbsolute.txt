@@ -1,0 +1,9 @@
+C:\Users\Mark\Documents\Visual Studio 2017\Projects\CompilerBase\DormezInterpreter\bin\Debug\Dormez.dll
+C:\Users\Mark\Documents\Visual Studio 2017\Projects\CompilerBase\DormezInterpreter\bin\Debug\Dormez.pdb
+C:\Users\Mark\Documents\Visual Studio 2017\Projects\CompilerBase\DormezInterpreter\bin\Debug\Dormez.dll.config
+C:\Users\Mark\Documents\Visual Studio 2017\Projects\CompilerBase\DormezInterpreter\obj\Debug\CompilerExecutable.csprojResolveAssemblyReference.cache
+C:\Users\Mark\Documents\Visual Studio 2017\Projects\CompilerBase\DormezInterpreter\bin\Debug\HarpyCompiler.exe.config
+C:\Users\Mark\Documents\Visual Studio 2017\Projects\CompilerBase\DormezInterpreter\bin\Debug\HarpyCompiler.exe
+C:\Users\Mark\Documents\Visual Studio 2017\Projects\CompilerBase\DormezInterpreter\bin\Debug\HarpyCompiler.pdb
+C:\Users\Mark\Documents\Visual Studio 2017\Projects\CompilerBase\DormezInterpreter\obj\Debug\HarpyCompiler.exe
+C:\Users\Mark\Documents\Visual Studio 2017\Projects\CompilerBase\DormezInterpreter\obj\Debug\HarpyCompiler.pdb

@@ -1,0 +1,9 @@
+C:\Users\Mark\Documents\Visual Studio 2017\Projects\Dormez\DormezInterpreter\bin\Debug\Dormez.dll
+C:\Users\Mark\Documents\Visual Studio 2017\Projects\Dormez\DormezInterpreter\bin\Debug\Dormez.pdb
+C:\Users\Mark\Documents\Visual Studio 2017\Projects\Dormez\DormezInterpreter\bin\Debug\Dormez.dll.config
+C:\Users\Mark\Documents\Visual Studio 2017\Projects\Dormez\DormezInterpreter\obj\Debug\DormezInterpreter.csprojResolveAssemblyReference.cache
+C:\Users\Mark\documents\visual studio 2017\Projects\Dormez\DormezInterpreter\bin\Debug\DormezInterpreter.exe.config
+C:\Users\Mark\documents\visual studio 2017\Projects\Dormez\DormezInterpreter\bin\Debug\DormezInterpreter.exe
+C:\Users\Mark\documents\visual studio 2017\Projects\Dormez\DormezInterpreter\bin\Debug\DormezInterpreter.pdb
+C:\Users\Mark\documents\visual studio 2017\Projects\Dormez\DormezInterpreter\obj\Debug\DormezInterpreter.exe
+C:\Users\Mark\documents\visual studio 2017\Projects\Dormez\DormezInterpreter\obj\Debug\DormezInterpreter.pdb

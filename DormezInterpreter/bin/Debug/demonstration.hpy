@@ -1,0 +1,12 @@
+
+var a_b_c: string = "Hello world";
+
+var prefix: pointer = "a";
+var name: pointer = "b";
+var suffix: pointer = "c";
+
+\prefix/_\name/_\suffix/ = "Goodbye world :(";
+
+print(a_b_c);
+
+pause();

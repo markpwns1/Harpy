@@ -1,0 +1,78 @@
+
+// THE FOLLOWING IS A LIBRARY FOR ARRAYS IN BATCH
+// WRITTEN IN THE HARPY PROGRAMMING LANGUAGE
+
+var array_id: int = 0;
+
+// returns a pointer to a new array of specified length
+function array_create(length: int): pointer {
+    var ptr: pointer = &array_\array_id/;
+    var global \ptr/: array = raw("array id=" .. to_string(array_id)) as array;
+    var global \ptr/_length: int = length;
+    array_id++;
+    return ptr;
+}
+
+// takes in a pointer to an array and throws an error if an index is out of bounds
+function array_assert_bounds(ptr: pointer, index: int) {
+    if index < 0 {
+        error("Index less than zero");
+    } elseif index >= \ptr/_length as int {
+        error("Index too high");
+    }
+}
+
+// takes in a pointer to an array and throws an error if it doesn't exist
+function array_assert_exists(ptr: pointer) {
+    if not var_exists(ptr) {
+        error("Array does not exist: " .. ptr);
+    }
+}
+
+// takes in a pointer to an array and returns its length
+function array_length(ptr: pointer): int {
+    array_assert_exists(ptr);
+    return \ptr/_length as int;
+}
+
+// takes in a pointer to an array and sets a value at the specified index
+function array_set(ptr: pointer, index: int, value: indeterminate) {
+    array_assert_exists(ptr);
+    array_assert_bounds(ptr, index);
+    \ptr/_\index/ = value;
+}
+
+// takes in a pointer to an array and gets a value at the specified index
+function array_get(ptr: pointer, index: int): indeterminate {
+    array_assert_exists(ptr);
+    array_assert_bounds(ptr, index);
+    return \ptr/_\index/;
+}
+
+// takes in a pointer to an array and prints each element in the array
+function array_print(ptr: pointer) {
+    array_assert_exists(ptr);
+    from 0 to array_length(ptr) with i {
+        print(to_string(i) .. ": " .. \ptr/_\i/ as string);
+    }
+}
+
+// takes in a pointer to an array and resizes it to the specified length
+function array_resize(ptr: pointer, new_size: int) {
+    var len = array_length(ptr);
+    if len > new_size {
+        from new_size to len with i {
+            delete \ptr/_\i/;
+        }
+    }
+    
+    \ptr/_length = new_size;
+}
+
+function array_delete(ptr: pointer) {
+    from 0 to array_length(ptr) with i {
+        delete \ptr/_\i/;
+    }
+    delete \ptr/;
+    delete \ptr/_length;
+}

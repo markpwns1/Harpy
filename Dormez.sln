@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DormezCore", "Dormez\DormezCore.csproj", "{7A2B919A-D881-4629-B72B-0558F49E91C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DormezLibrary", "DormezLibrary\DormezLibrary.csproj", "{CF1E6120-429B-44FF-8EA9-9932C808069A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DormezCompiler", "DormezCompiler\DormezCompiler.csproj", "{4B61D4B4-6E7D-427C-B18A-55B6F492C778}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7A2B919A-D881-4629-B72B-0558F49E91C5} = {7A2B919A-D881-4629-B72B-0558F49E91C5}
+		{18BBF9A7-6DE4-4F13-BBCC-6A548703BFB1} = {18BBF9A7-6DE4-4F13-BBCC-6A548703BFB1}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DormezInterpreter", "DormezInterpreter\DormezInterpreter.csproj", "{18BBF9A7-6DE4-4F13-BBCC-6A548703BFB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F576BF36-9869-4012-B4C4-D9944F9B255B}"
+	ProjectSection(SolutionItems) = preProject
+		TODO.txt = TODO.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A2B919A-D881-4629-B72B-0558F49E91C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A2B919A-D881-4629-B72B-0558F49E91C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A2B919A-D881-4629-B72B-0558F49E91C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A2B919A-D881-4629-B72B-0558F49E91C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF1E6120-429B-44FF-8EA9-9932C808069A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF1E6120-429B-44FF-8EA9-9932C808069A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF1E6120-429B-44FF-8EA9-9932C808069A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF1E6120-429B-44FF-8EA9-9932C808069A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B61D4B4-6E7D-427C-B18A-55B6F492C778}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B61D4B4-6E7D-427C-B18A-55B6F492C778}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B61D4B4-6E7D-427C-B18A-55B6F492C778}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B61D4B4-6E7D-427C-B18A-55B6F492C778}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18BBF9A7-6DE4-4F13-BBCC-6A548703BFB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18BBF9A7-6DE4-4F13-BBCC-6A548703BFB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18BBF9A7-6DE4-4F13-BBCC-6A548703BFB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18BBF9A7-6DE4-4F13-BBCC-6A548703BFB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,52 @@
+
+// THE FOLLOWING IS A LIBRARY FOR I/O IN BATCH
+// WRITTEN IN THE HARPY PROGRAMMING LANGUAGE
+
+include {
+    ARRAYS
+};
+
+function file_exists(path: string): bool {
+    if raw("exist " .. path) as bool {
+        return true;
+    }
+    
+    return false;
+}
+
+function file_append_line(path: string, line: string) {
+    raw("echo:" .. line .. ">>\"" .. path .. "\"");
+}
+
+function file_append(path: string, content: string) {
+    raw("echo | set /p ^=\"" .. content .. "\">>\"" .. path .. "\"");
+}
+
+function file_write_all(path: string, content: string) {
+    raw("echo | set /p ^=\"" .. content .. "\">\"" .. path .. "\"");
+}
+
+// reads the lines of a file and returns the pointer to an array that contains the lines
+function file_read_lines(path: string): pointer {
+    raw("set /a i=0");
+    raw("for /f \"tokens=*\" %%a in (" .. path .. ") do (");
+    raw("set /a i+=1");
+    raw(")");
+    
+    var ptr = array_create(raw("%i%") as int);
+    
+    raw("set /a i=0");
+    raw("for /f \"tokens=*\" %%a in (" .. path .. ") do (");
+    raw("call :process_line %%a");
+    raw(")");
+    raw("set i=");
+    
+    raw("goto end_process_line");
+    raw(":process_line")
+    array_set(ptr, raw("%i%") as int, raw("%*") as string);
+    raw("set /a i+=1");
+    raw("goto :eof");
+    raw(":end_process_line");
+    
+    return ptr;
+}
