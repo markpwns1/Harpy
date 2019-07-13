@@ -63,4 +63,4 @@ function main() {
 ## How to Build
 Instead of building it, you might just want to download it from the releases page of this repo.
 
-Otherwise, `git clone` it, and build `Dormez` and `DormezInterpreter` as those are the only things that are actually required. Inside `DormezInterpreter/bin/Debug` you should find `HarpyCompiler.exe`. Make sure to copy `Dormez.dll` to `Dormez/bin/Debug/Dormez.dll` to the same directory as `HarpyCompiler.exe` after each build, as it relies on `Dormez.dll`.
+Otherwise, `git clone` it, and build `Dormez` and `DormezInterpreter` as those are the only things that are actually required. Inside `DormezInterpreter/bin/Debug` you should find `HarpyCompiler.exe`. Make sure to copy `Dormez/bin/Debug/Dormez.dll` to the same directory as `HarpyCompiler.exe` after each build, as it relies on `Dormez.dll`.
