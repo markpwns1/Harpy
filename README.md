@@ -1,15 +1,61 @@
-# Dormez
-Dormez is an interpreted programming language. It supports the following:
-* Primitive types (number, string, bool, etc.)
-* Non-primitive types (console, file, etc.)
-* If, else if, and else statements
-* All kinds of loops
-* Functions
-* Lua-style tables
-* Object-oriented programming
+# Harpy
+A programming language that compiles to Batch. 
 
-### Documentation
-Check out the wiki to learn how to use Dormez and how it differs from other languages. https://github.com/markpwns1/Dormez/wiki
+W. I. P. but mostly stable.
 
-### How to Use
-In the very near future I plan to add an official release, but until then you can clone this repository and build it all. You can then use `DormezInterpreter.exe` once you've built it.
+Currently has almost no standard library. Compiler errors are vague and don't tell you much. Runtime errors will just fail silently. All of these things are being worked on at the moment--but if your code is right, it works like a charm.
+
+Here are some examples: 
+```
+// A command-line program to calculate the greatest
+// common denominator between two numbers
+
+// Parameters a and b are command-line arguments. They
+// must only be strings.
+function main(a: string, b: string) {
+
+    if not var_exists(&a) or not var_exists(&b) {
+        error("Invalid arguments. Expected two integers.");
+    }
+    
+    if not is_valid_number(a) or not is_valid_number(b) {
+        error("Invalid arguments. Expected two integers.");
+    }
+
+    var i = 1;
+    var gcd: int;
+    
+    var n1 = to_int(a);
+    var n2 = to_int(b);
+    
+    while i <= n1 and i <= n2 {
+        if n1 % i == 0 and n2 % i == 0 {
+            gcd = i;
+        }
+        i++;
+    }
+    
+    print(to_string(gcd));
+    
+}
+```
+
+```
+// A double-click program to print the lines
+// from a certain file
+
+include {
+    IO,
+    ARRAYS
+};
+
+// Variables declared in the global scope
+// must have their type specified
+var filename: string = "test.txt";
+
+function main() {
+    var lines = file_read_lines(filename);
+    array_print(lines);
+    pause();
+}
+```
