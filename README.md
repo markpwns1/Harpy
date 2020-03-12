@@ -40,6 +40,8 @@ function main(a: string, b: string) {
 }
 ```
 
+Another example:
+
 ```
 // A double-click program to print the lines
 // from a certain file
@@ -64,3 +66,34 @@ function main() {
 Instead of building it, you might just want to download it from here: https://github.com/markpwns1/Harpy/releases/tag/1
 
 Otherwise, `git clone` it, and build `Dormez` and `DormezInterpreter` as those are the only things that are actually required. Inside `DormezInterpreter/bin/Debug` you should find `HarpyCompiler.exe`. Make sure to copy `Dormez/bin/Debug/Dormez.dll` to the same directory as `HarpyCompiler.exe` after each build, as it relies on `Dormez.dll`.
+
+# Example collection
+(Sorry for the images instead of text)
+
+Example 1
+
+![Example](https://i.imgur.com/9LdiS0d.png)
+
+Example 2
+
+![Example](https://i.imgur.com/GrbSHkq.png)
+
+Example 3
+
+![Example](https://i.imgur.com/5jiqKoi.png)
+
+Example 4
+
+![Example](https://i.imgur.com/74kT73Q.png)
+
+Example 5
+
+![Example](https://i.imgur.com/nzLUmCO.png)
+
+Example 6
+
+![Example](https://i.imgur.com/cW8sSo9.png)
+
+Example 7
+
+![Example](https://i.imgur.com/PuX6bHy.png)
